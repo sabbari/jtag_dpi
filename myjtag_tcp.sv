@@ -6,7 +6,7 @@ module jtag_dpi(
     input sys_clk
 );
 
-parameter port = 1234;
+parameter port = 7894;
 
 
 
