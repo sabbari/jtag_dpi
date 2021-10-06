@@ -6,7 +6,7 @@
 module jtag_tb; 
 
 
-reg tck,tms,tdi,tdo ;
+reg tck,tms,tdi,tdo,sys_clk ;
 reg [7:0] data;
 reg [2:0] count ;
 
