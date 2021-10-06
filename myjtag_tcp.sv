@@ -25,7 +25,7 @@ import "DPI-C" context function int jtag_server( output bit tck,
 always @(posedge sys_clk)
 begin
 
-	jtag_server(spi_cs_o,spi_clk_o,spi_mosi_o,spi_miso_i,port);
+	jtag_server(tck,tms,tdi,tdo,port);
     	
 end
 endmodule
